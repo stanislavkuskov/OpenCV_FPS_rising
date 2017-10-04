@@ -1,10 +1,8 @@
-
+.gitignore
 .idea/
-cameraCrop/
 exFast.py
 read_frames_fast.py
 read_frames_slow.py
 videoCapFast.py
 videoCapture.py
-videoCrop/
-videos/
+
