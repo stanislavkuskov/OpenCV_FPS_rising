@@ -10,7 +10,7 @@ fps = FPS().start()
 while 1:
     frame = cap.read()
     # frame=cv2.resize(frame,(640,480))
-    # cv2.imshow("Frame", frame)
+    cv2.imshow("Frame", frame)
 
     if cv2.waitKey(10) == 27:
         break

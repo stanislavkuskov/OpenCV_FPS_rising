@@ -8,7 +8,7 @@ while True:
     flag, frame = cap.read()
     if not flag:
         break
-    # cv2.imshow('Frame', frame)
+    cv2.imshow('Frame', frame)
     cv2.waitKey(1)
     fps.update()
     fps.stop()
